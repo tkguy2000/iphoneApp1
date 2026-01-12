@@ -1,5 +1,6 @@
-# 칼로리 계산기 앱 
-## 아키텍쳐
-- 크로스 플렛폼
-- flutter 사용하여 모바일 앱을 만든다.
+# 칼로리 계산기 앱
 
+## 아키텍쳐
+
+- cross platform mobile app
+- flutter used to create the mobile app.

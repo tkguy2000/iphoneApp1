@@ -18,7 +18,7 @@ class FoodItem {
     required this.servingSize,
     required this.servingUnit,
   });
-
+//test
   Map<String, dynamic> toJson() {
     return {
       'id': id,

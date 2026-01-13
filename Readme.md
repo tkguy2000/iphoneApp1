@@ -27,9 +27,10 @@ flutter pub get
 
 ### web Browser
 
-만약 프로젝트에서 web 지원을 활성화 했다면, 다음 명령어로 실행 가능
+프로젝트에 web 지원이 이미 추가되어 있습니다. 다음 명령어로 실행 가능:
 
 ```sh
+flutter create --platforms web .
 flutter run -d chrome
 ```
 
@@ -38,6 +39,7 @@ flutter run -d chrome
 simulator를 먼저 시작해야 함
 
 ```sh
+# flutter create --platforms ios .
 open -a Simulator
 flutter run
 # quit the simulator: Cmd + Q
@@ -48,6 +50,10 @@ flutter run
 ### Android Emulator
 
 flutter emulators # 사용 가능한 emulator 목록 확인
+
+```sh
+flutter create --platforms android .
+```
 
 ```sh
 Id                    • Name                  • Manufacturer • Platform
@@ -62,3 +68,10 @@ flutter run
 ```
 
 ![alt text](images/Readme/image-1.png)
+
+## platform 추가
+
+```sh
+# 모든 플랫폼 추가
+flutter create --platforms ios,android,web,windows,linux,macos .
+```

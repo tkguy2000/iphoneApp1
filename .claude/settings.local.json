@@ -5,7 +5,9 @@
       "Bash(flutter --version:*)",
       "Bash(flutter devices:*)",
       "Bash(flutter pub get:*)",
-      "Bash(flutter create:*)"
+      "Bash(flutter create:*)",
+      "Bash(flutter config:*)",
+      "Bash(find:*)"
     ]
   }
 }

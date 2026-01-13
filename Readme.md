@@ -16,23 +16,38 @@ A cross-platform mobile application built with Flutter
 
 ## how to run
 
+### Clone the repository and get dependencies
+
 ```sh
 git clone <repository_url>
 git pull
 cd <project_directory>
 flutter pub get
+```
 
-# 만약 web도 추가햇다면
+### web Browser
+
+만약 프로젝트에서 web 지원을 활성화 했다면, 다음 명령어로 실행 가능
+
+```sh
 flutter run -d chrome
+```
 
-# iOS Simulator에서 실행하기 (simulator를 먼저 시작해야 함):
+### iOS Simulator
+
+simulator를 먼저 시작해야 함
+
+```sh
 open -a Simulator
 flutter run
 # quit the simulator: Cmd + Q
-
-# Android Emulator에서 실행하기:
-flutter emulators  # 사용 가능한 emulator 목록 확인
 ```
+
+![alt text](images/Readme/image.png)
+
+### Android Emulator
+
+flutter emulators # 사용 가능한 emulator 목록 확인
 
 ```sh
 Id                    • Name                  • Manufacturer • Platform
@@ -46,4 +61,4 @@ flutter emulators --launch Medium_Phone_API_36.1
 flutter run
 ```
 
-![alt text](images/Readme/image.png)
+![alt text](images/Readme/image-1.png)

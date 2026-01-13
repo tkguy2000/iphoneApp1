@@ -75,3 +75,9 @@ flutter run
 # 모든 플랫폼 추가
 flutter create --platforms ios,android,web,windows,linux,macos .
 ```
+
+## 전체 디바이스
+
+```sh
+flutter run -d all
+```

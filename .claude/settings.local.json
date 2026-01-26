@@ -7,7 +7,11 @@
       "Bash(flutter pub get:*)",
       "Bash(flutter create:*)",
       "Bash(flutter config:*)",
-      "Bash(find:*)"
+      "Bash(find:*)",
+      "Bash(cmd /c \"C:\\\\Users\\\\tkguy\\\\AppData\\\\Local\\\\Android\\\\sdk\\\\emulator\\\\emulator.exe -avd Medium_Phone_API_36.1 2>&1\")",
+      "Bash(cmd /c \"dir C:\\\\Users\\\\tkguy\\\\.android\\\\avd\"\")",
+      "Bash(cmd /c \"C:\\\\Users\\\\tkguy\\\\AppData\\\\Local\\\\Android\\\\sdk\\\\tools\\\\bin\\\\avdmanager.bat list avd 2>&1\")",
+      "Bash(cmd /c \"dir %USERPROFILE%\\\\.android\\\\avd\")"
     ]
   }
 }
